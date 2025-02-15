@@ -245,3 +245,65 @@ body{
 .dark-blue{
     background: blue;
 }
+
+/* ***********Tabular Section*********/
+
+.tabular--wrapper{
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.table-container {
+    width: 100%; /* Estilos para el contenedor */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box; /* Incluye padding y bordes en el ancho */
+}
+
+thead{
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+}
+
+th{
+    padding: 10px; /* Valor fijo en píxeles */
+    text-align: left;
+    box-sizing: border-box;
+}
+
+tbody{
+    background: #f2f2f2;
+}
+
+td{
+    padding: 10px; /* Padding consistente */
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+tr:nth-child(even){
+    background: #fff;
+}
+
+tfont{
+    background: rgba(113, 99, 186, 266);
+    font-weight: bold;
+    color: #fff;
+}
+
+tfoot td{
+    padding: 15px;
+    
+}
+
+.table-container button{
+    color: green;
+    background: none;
+    cursor: pointer;
+}
